@@ -35,6 +35,12 @@ jobs:
       - name: Build the application
         run: msbuild /p:Configuration=Release
 
+      - name: Setup .Net Core
+        uses: actions/setup-dotnet@v1
+
+      - name: Run test
+        run: dotnet test CISampleTests/bin/Release/CISampleTests.dll
+
       - name: Upload Build item
         uses: actions/upload-artifact@v2
         with:
