@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CISample
 {
-    class Util
+    public class Util
     {
         public static double Add(double a, double b)
         {
