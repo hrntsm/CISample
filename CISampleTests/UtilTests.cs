@@ -14,7 +14,7 @@ namespace CISample.Tests
         [TestMethod()]
         public void AddTest()
         {
-            Assert.AreEqual(1, Util.Add(1, 1));
+            Assert.AreEqual(2, Util.Add(1, 1));
         }
     }
 }
