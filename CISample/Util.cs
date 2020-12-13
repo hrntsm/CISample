@@ -12,5 +12,9 @@ namespace CISample
         {
             return a + b;
         }
+        public static double Add3(double a, double b, double c)
+        {
+            return a + b + c;
+        }
     }
 }
